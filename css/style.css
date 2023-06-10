@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #116A7B;
+}
+
+.container{
+    box-shadow: 0 0 30px -15px black;
+    border-radius: 5px;
+    background-color: #FFF4F4;
+    padding: 2vw 3vw;
+}
+
+.container div{
+    border-radius: 5px;
+}
+
+.keypad{
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.keypad div{
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #c2dedc6e;
+    padding: 10px 0;
+}
+
+.keypad div:hover{
+    background-color: #98eecc91;
+    color: black;
+}
+
+.display{
+    height: 7vw;
+    margin-bottom: 5px;
+    cursor: text;
+    background-color: #c2dedc6e;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.icons{
+    height: 2vw;
+}
+
+.special{
+    background-color: #C2DEDC !important;
+}
+.special:hover{
+    background-color: #99DBF5 !important;
+}
