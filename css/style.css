@@ -65,3 +65,18 @@ body{
 .special:hover{
     background-color: #99DBF5 !important;
 }
+
+@media (max-width:425px){
+    *{
+        font-size: 4vw;
+    }
+    .icons{
+        height: 4vw;
+    }
+    .container {
+        width: 60vw;
+    }
+    .display{
+        height: 50px;
+    }
+}
